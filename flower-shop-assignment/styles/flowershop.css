@@ -1,0 +1,28 @@
+* {
+    margin: 0%;
+    border: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* banner styles */
+.banner {
+    background: rgba(229, 84, 115, 0.10);
+    height: 850px;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    max-width: 790px;
+}
+
+.banner-text {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
