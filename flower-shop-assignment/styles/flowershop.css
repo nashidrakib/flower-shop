@@ -95,6 +95,10 @@ section h5 {
     justify-content: center;
 }
 
+#flower2 {
+    margin-bottom: 51px;
+}
+
 .flower-section3 {
     background-color: #477D1126;
     border-radius: 300px 300px 0px 0px;
@@ -108,11 +112,42 @@ section h5 {
 .featured-img-txt {
     display: flex;
     justify-content: center;
-    justify-content: space-between;
     margin: 32px 400px 0px 400px;
     color: #272727;
     font-size: 24px;
     font-weight: 700;
     text-decoration-line: underline;
 }
+.featured-img-txt>p{
+    padding: 0px 142px;
+    flex: none;
+}
 
+.services {
+    margin: 0px auto;
+    background-color: #2727270D;
+    padding: 87px 0px;
+    width: 1440px;
+    margin-top: 128px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+.icons>img{
+    margin: 0px 175px;
+}
+
+.services-txt {
+    margin-top: 27px;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 20px;
+    font-weight: 600;
+}
+.services-txt>p{
+    min-width: 300px;
+    text-align: center;
+}
