@@ -58,7 +58,9 @@ body {
 
 section {
     margin-top: 128px;
+    
 }
+
 
 body h5 {
     color: #272727;
@@ -199,12 +201,15 @@ body h5 {
     width: 1440px;
     margin: 0px auto;
     margin-top: 128px;
-    padding: 121px 0px;
 }
 
 .subscribe-email {
     display: flex;
     justify-content: center;
+}
+
+.subscribe>h5{
+    padding-top: 128px;
 }
 
 .subscribe-email>input {
@@ -224,12 +229,70 @@ body h5 {
     padding-left: 21px;
 }
 
+/* order styles */
+.order{
+    height: 500px;
+    background-color: #E554730D;
+    display: flex;
+    justify-content: center;
+}
+.order-image{
+    border-radius: 5px;
+    background-color: #111010;
+    min-height: 500px;
+    min-width: 750px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../images/flower-shop=man.avif");
+    opacity: .9;
+    
+    
+}
+.form{
+    text-align: center;
+    /* background-color: #E55473; */
+    height: 500px;
+    width: 690px;
+}
+.form>p{
+    margin: 0px auto;
+    max-width: 400px;
+}
+.form>h6{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #E55473;
+font-size: 60px;
+font-weight: 800;
+
+}
+.form>input{
+border-radius: 2px;
+border-color: #fdb8b842;
+background-color: #ff00370d;
+    margin: 25px 6px;
+    width: 200px;
+    height: 30px;
+    
+}
+.form>textarea{
+    border-radius: 2px;
+border-color: #fdb8b842;
+background-color: #ff00370d;
+    margin: 15px 6px;
+    width: 420px;
+    height: 100px;
+}
+.order span{
+    color: #272727;
+}
+
 /* footer styles */
 
 footer {
     background: #111010;
     padding: 128px;
-    margin: 0px auto;
+    margin: 128px auto 0px auto;
 }
 
 .footer-title {
@@ -244,7 +307,6 @@ footer>h5 {
 
     color: #FFFFFFE5;
     margin: 24px auto 0px auto;
-
     max-width: 625px;
     text-align: center;
     font-size: 18px;
@@ -258,3 +320,4 @@ footer>h5 {
     font-size: 16px;
     font-weight: 400;
 }
+
