@@ -59,7 +59,7 @@ section {
     margin-top: 128px;
 }
 
-section h5 {
+body h5 {
     color: #272727;
     text-align: center;
     font-size: 40px;
@@ -162,7 +162,7 @@ section h5 {
 
 /* deal styles */
 
-.deal{
+.deal {
     background-color: #E554730D;
     height: 620px;
     display: flex;
@@ -170,11 +170,13 @@ section h5 {
     align-items: center;
     gap: 168px;
 }
-.deal-info{
+
+.deal-info {
     text-align: center;
 
 }
-.off{
+
+.off {
     color: #E55473;
 }
 
@@ -189,6 +191,32 @@ section h5 {
 
 /* subscribe styles */
 
-{
-    
+.subscribe {
+    background-image: url("../FlowerAsset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    height: 449px;
+    width: 1440px;
+    margin: 0px auto;
+    margin-top: 128px;
+    padding: 121px 0px;
+}
+
+.subscribe-email {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe-email>input {
+    margin-top: 32px;
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    margin-right: 16px;
+}
+::placeholder{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 16px;
+font-weight: 400;
+padding-left: 21px;
 }
