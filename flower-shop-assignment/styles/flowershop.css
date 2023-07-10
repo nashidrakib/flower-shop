@@ -214,9 +214,45 @@ body h5 {
     background: #FFF;
     margin-right: 16px;
 }
-::placeholder{
+
+::placeholder {
     color: rgba(39, 39, 39, 0.60);
-font-size: 16px;
-font-weight: 400;
-padding-left: 21px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 21px;
+}
+
+/* footer styles */
+
+footer {
+    background: #111010;
+    padding: 128px;
+    margin: 0px auto;
+}
+
+.footer-title {
+    color: #E55473;
+}
+
+footer>h5 {
+    color: #FFFFFF;
+}
+
+.footer-text {
+
+    color: #FFFFFFE5;
+    margin: 24px auto 0px auto;
+
+    max-width: 625px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.copyright {
+    margin-top: 32px;
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
 }
