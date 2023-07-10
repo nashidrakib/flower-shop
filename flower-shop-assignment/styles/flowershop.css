@@ -177,3 +177,18 @@ section h5 {
 .off{
     color: #E55473;
 }
+
+/* instagram styles */
+
+.instagram-images {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+/* subscribe styles */
+
+{
+    
+}
