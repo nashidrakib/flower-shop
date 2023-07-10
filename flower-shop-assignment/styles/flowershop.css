@@ -12,6 +12,9 @@ body {
 .banner {
     background: rgba(229, 84, 115, 0.10);
     height: 850px;
+    display: flex;
+    justify-content: center;
+    gap: 97px;
 }
 
 .banner-title {
@@ -19,10 +22,24 @@ body {
     font-size: 80px;
     font-weight: 800;
     max-width: 790px;
+    margin-top: 197px;
 }
-
 .banner-text {
+    margin-top: 32px;
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
+    max-width: 634px;
+}
+.btn {
+    margin-top: 32px;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+.banner-img{
+    margin-top: 50px;
 }
